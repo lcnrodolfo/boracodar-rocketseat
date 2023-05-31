@@ -1,23 +1,20 @@
-
+:root {
+    --text-color: #38343D;
+    --logout-color: #AA2222;
+    --namecard-color: #797085;
+    --background-color: linear-gradient(107.54deg, #935FD3 0%, #9245F1 100%);
+    --border-card: 1px solid #F4EFFA;
+    --background-card-color: #FDFCFE;
+  }
 
 body * {
     font-family: 'Heebo', sans-serif;;
-    font-weight: 400;
+
 }
 
 body {
-    background-color: var(--background-card-color);
+    background-color: var(--background-color);
 }
-
-:root {
-  --text-color: #38343D;
-  --logout-color: #AA2222;
-  --namecard-color: #797085;
-  --background-color: linear-gradient(107.54deg, #935FD3 0%, #9245F1 100%);;
-  --border-card: 1px solid #F4EFFA;
-  --background-card-color: #FDFCFE;
-}
-
 
 
 #user img {
@@ -26,13 +23,14 @@ body {
     border-radius: 8px;
 }
 
-#card {
+#container * {
+    background-position: top center;
+    margin:auto;
     width: 375px;
     height: 584px;
     border: 1px solid red;
-    margin-left: auto;
-background-color: var(--background-color);
-border-color: var(--border-card);
+    background-color: var(--background-color);
+    border-color: var(--border-card);
 }
 
 
