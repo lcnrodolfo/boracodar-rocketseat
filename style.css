@@ -13,7 +13,8 @@ body * {
 }
 
 body {
-    background-color: var(--background-color);
+    background-color: purple;
+    padding-top: 97px;
 }
 
 
@@ -21,17 +22,93 @@ body {
     width: 48px;
     height: 48px;
     border-radius: 8px;
+    
 }
 
-#container * {
-    background-position: top center;
-    margin:auto;
+
+#container {
+    background-color: var(--background-card-color);
     width: 375px;
     height: 584px;
     border: 1px solid red;
-    background-color: var(--background-color);
-    border-color: var(--border-card);
+    padding: 24px 24px 16px;
+
+    
+    
+    border: var(--border-card);
+    border-radius: 12px;
+
+    
+    font-style: normal;
+    font-weight: 400;
+
 }
+
+#options li {
+    
+color:var(--text-color);
+font-weight: 400;
+align-items: center;
+
+}
+
+#options ul {
+    
+    color: var(--namecard-color);
+    font-weight: 400;
+    align-items: center;
+}
+
+
+#user {
+    display: flex;
+flex-direction: row;
+align-items: center;
+padding: 0px;
+gap: 16px;
+border: 2px solid ;
+
+
+
+    
+}
+
+#user p {
+
+
+}
+
+#acount {
+    
+
+}
+#acount i {
+
+}
+
+#preferences {
+
+}
+
+#privacy {
+
+}
+
+#other {
+
+}
+
+#options {
+    display: flex;
+    flex-direction: column;
+    border: 1px solid red;
+    align-items: flex-start;
+    gap: 16px;
+    margin-top: 16px;
+    
+
+}
+
 
 
 
